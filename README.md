@@ -8,6 +8,8 @@ My first Github Repository!
 ## **OS**: WIndows
 credentials::set_github_pat("hp_rgFQdF0wp1isBSqUpeDd4T0LLHvlrT40ht3j")
 
-usethis::git_sitrep(tool = "github", scope = "user")
-use_git_config(user.name = "<Caley->", user.email = "<caley.something@gmail.com>")
+
+usethis::use_git_config(user.name = "Caley-something", user.email = "Caley.something@gmail.com")
+usethis::git_sitrep()
+
 
